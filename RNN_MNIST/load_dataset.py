@@ -5,9 +5,9 @@ from torch.utils.data import DataLoader
 
 batch_size = 64
 
-train_dataset = datasets.MNIST(root = 'dataset/', train=True,
+train_dataset = datasets.MNIST(root = 'RNN_MNIST/dataset/', train=True,
                                transform=transforms.ToTensor(), download=True)
-test_dataset = datasets.MNIST(root='dataset/', train=False, 
+test_dataset = datasets.MNIST(root='RNN_MNIST/dataset/', train=False, 
                                transform=transforms.ToTensor(), download=True)
 
 train_loader = DataLoader(dataset=train_dataset, batch_size=batch_size, shuffle=True)

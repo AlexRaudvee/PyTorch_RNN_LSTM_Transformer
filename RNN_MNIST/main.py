@@ -4,10 +4,6 @@ import torch.optim as optim
 from Net import RNN
 from config import device
 from load_dataset import test_loader, train_loader
-# set device 
-"""
-set 'cpu' if you are using not MacOS M1 or M2 chip
-"""
 
 # Hyperparameters 
 input_size = 28
