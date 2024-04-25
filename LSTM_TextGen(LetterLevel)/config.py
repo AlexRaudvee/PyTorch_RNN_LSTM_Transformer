@@ -10,7 +10,7 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'mps')
 """
 here you have to input the path to the txt file
 """
-path_to_file = '../text_data/words.txt'
+path_to_file = '../text_data/words_alpha.txt'
 
 file = unidecode.unidecode(open(f"{path_to_file}").read())
 

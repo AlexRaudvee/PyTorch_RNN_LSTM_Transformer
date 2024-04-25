@@ -70,6 +70,9 @@ class Generator:
         return text_input.long(), text_target.long()
     
     def generate(self, initial_str = 'A', predict_len = 200, temperature = 0.85):
+
+        initial_str = initial_str.lower()
+
         hidden, cell = self.rnn.init_hidden(batch_size=self.batch_size)
         initial_input = self.char_tensor(initial_str)
         predicted = initial_str
