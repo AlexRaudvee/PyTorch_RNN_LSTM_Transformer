@@ -40,8 +40,27 @@ I experiment with the following datasets:
    ```
     git clone https://github.com/AlexRaudvee/PyTorch_RNN_LSTM_Transformer
    ```
-
-3. Install the required dependencies:
+2. Install the required dependencies:
    ```
     pip install -r requirements.txt
    ```
+3. Explore the notebooks provided in the `notebooks` directory to understand the implementation and results of different models on various tasks.
+
+## Results
+
+I present the results of each experiment in the corresponding notebook. Metrics such as accuracy, perplexity, and BLEU score are used to evaluate the performance of the models.
+
+## Future Work
+
+- Experiment with different hyperparameters and architectures to further improve performance.
+- Explore other tasks and datasets to broaden the scope of experimentation.
+- Incorporate recent advancements and research findings into the project.
+
+## Acknowledgments
+
+I would like to express my gratitude to the research community, especially to organizations like OpenAI and Meta, for their contributions to the field of deep learning. Additionally, I appreciate the support and feedback from my peers and mentors.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
