@@ -38,7 +38,7 @@ I experiment with the following datasets:
 
 1. Clone this repository:
    ```
-    git clone 
+    git clone https://github.com/AlexRaudvee/PyTorch_RNN_LSTM_Transformer
    ```
 
 3. Install the required dependencies:
